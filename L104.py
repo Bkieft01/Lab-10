@@ -4,7 +4,7 @@ red_velvet={"egg":3,"flour":2,"cocoa powder":2,"salt":4,"butter":1,"vegetable oi
 def cake():
     match = []
     x = red_velvet
-    y = lemon
+    y = lemon_cake
     for ingredient in x:
         if ingredient in y:
           match.append(ingredient)
